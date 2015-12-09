@@ -1,7 +1,0 @@
-info:
-  description: vca config for dev
-  url: https://github.com/spring-cloud-samples
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.10.26.243:8080/eureka/v2/
