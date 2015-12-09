@@ -1,6 +1,5 @@
 info:
-  description: vca config
-  url: https://github.com/spring-cloud-samples
+  description: cloud config
 eureka:
   client:
     serviceUrl:
