@@ -4,8 +4,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://10.10.26.243:8080/eureka/v2/
-
+  instance:
+    preferIpAddress: true
 logging:
   level:
-    org.springframework.cloud: DEBUG
-    com.netflix: DEBUG    
+    org.springframework.cloud: INFO
+    com.netflix: INFO 
+    com.example: DEBUG	
