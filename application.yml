@@ -5,28 +5,4 @@ eureka:
     serviceUrl:
       defaultZone: http://10.10.26.243:8080/eureka/v2/
   instance:
-    preferIpAddress: true	  
-
----
-spring:
-  profiles: dev
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.10.26.243:8080/eureka/v2/
-      
----
-spring:
-  profiles: sit
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.10.26.243:8080/eureka/v2/    
-      
----
-spring:
-  profiles: prod
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.10.26.243:8080/eureka/v2/        
+    preferIpAddress: true    
